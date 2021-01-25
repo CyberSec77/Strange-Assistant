@@ -1,0 +1,184 @@
+body {
+    background-image: url("https://media.boingboing.net/wp-content/uploads/2015/09/coffee_in_rain_by_kirokaze-d98qb8z.gif");
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Langar', cursive;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition-duration: 4s;
+}
+
+h1:hover {
+    font-size: 50px;
+    transition-duration: 4s;
+    transform: skewX(30deg);
+}
+
+h2 {
+    font-family: 'Audiowide', cursive;
+ background: -webkit-linear-gradient(rgb(253, 0, 198), rgb(0, 247, 255)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition-duration: 4s;
+}
+
+h2:hover {
+    font-size: 15px;
+    transition-duration: 4s;
+    transform: skewX(30deg);
+}
+
+
+.text {
+    font-family: 'Russo One', sans-serif;
+    background: -webkit-repeating-linear-gradient(
+        45deg,
+        rgb(0, 247, 255) 0px,
+        rgb(204, 0, 255) 40px,
+        rgb(2, 255, 107) 40px,
+        rgb(0, 0, 0) 80px);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        transition-duration: 4s;
+}
+
+.text:hover {
+    font-size: 30px;
+    transition-duration: 4s;
+}
+
+.contact {
+    position: relative;
+    bottom: 15px;
+}
+
+.contact li:hover {
+    transition-duration: 2s;
+    font-size: 25px;
+    transform: scaleX(20deg);
+}
+.contact li {
+    text-align: center;
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 43%;
+  font-family: 'Russo One', sans-serif;
+  background: -webkit-linear-gradient(rgb(253, 0, 198), rgb(0, 247, 255)); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  transition-duration: 2s;
+}
+
+.back:hover {
+    transform: skewY(-2deg);
+}
+
+.back a{
+    font-family: 'Mountains of Christmas', cursive;
+    background: -webkit-linear-gradient(rgb(0, 253, 105), rgb(255, 174, 0));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    transition-duration: 4s;
+}
+
+.back a:hover {
+    transition-duration: 4s;
+    font-size: 40px;
+}
+
+.info {
+    font-family: 'Mountains of Christmas', cursive;
+    background: -webkit-repeating-linear-gradient(
+        45deg,
+        rgb(255, 123, 0) 0px,
+        rgb(0, 0, 0) 40px,
+        rgb(255, 123, 0) 40px,
+        rgb(0, 0, 0) 80px);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+transition-duration: 2s;
+opacity: 0.5;
+}
+
+.info:hover {
+    font-size: 30px;
+    transition-duration: 2s;
+    opacity: 1;
+}
+
+#cyber {
+    animation-name: sec;
+    animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+
+@keyframes sec {
+        0% {
+            background-color: #02f2fa;
+            top: 0px;
+            opacity: 1;
+        }
+    
+        10% {
+            background-color: #cc1ebd;
+            top: 20px;
+            opacity: 0.2;
+        }
+    
+        20% {
+    background-color: #1cff07;
+    top: 0px;
+    opacity: 1;
+        }
+    
+        30% {
+            background-color: #ff05f2;
+            top: 20px;
+            opacity: 0.2;
+        }
+    
+        40% {
+            background-color: #000000;
+            top: 0px;
+            opacity: 1;
+        }
+    
+        50% {
+            background-color: #ff05f2;
+            top: 20px;
+            opacity: 0.2;
+        }
+    
+        60% {
+            background-color: #1cff07;
+            top: 0px;
+            opacity: 1;
+        }
+    
+        70% {
+            background-color: #cc1ebd;
+            top: 20px;
+            opacity: 0.2;
+        }
+    
+        80% {
+            background-color: #02f2fa;
+            top: 0px;
+            opacity: 1;
+        }
+    
+        90% {
+            background-color: #6a048a;
+            top: 20px;
+            opacity: 0.2;
+            }
+    
+        100% {
+            background-color: #02f2fa;
+            top: 0px;
+            opacity: 1;
+        }
+    }

@@ -1,0 +1,254 @@
+p {
+font-family: 'Nova Flat', cursive;
+color:rgb(55, 0, 255)
+
+}
+
+.green {
+    color:rgb(0, 255, 0)
+}
+
+h1 {
+    color: rgb(0, 17, 255);
+}
+
+#welcome {
+    font-family: "Bungee Outline", cursive;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+.sitething {
+    color:rgb(17, 1, 153);
+}
+
+.cursive {
+    font-family:'Pacifico', cursive;
+}
+
+.orange {
+    color:rgb(216, 104, 0)
+}
+
+.darkgreen {
+    color:rgb(0, 39, 0);
+}
+
+.fantasy {
+    font-family: 'Jura', sans-serif;
+}
+
+.projects li {
+   color:rgb(53, 82, 17); 
+   text-align: center;
+  list-style-position: inside;
+  text-align: left;
+  margin-left: 45%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.coolfont {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-image:
+    url("https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif");
+}
+
+.blue {
+    color:rgb(0, 2, 124)
+}
+
+main {
+    text-align: center;
+}
+
+.border1 {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    border-radius: 100px;
+    margin: 0 auto;
+    transition-duration: 1s;
+}
+
+.border1:hover {
+    transition-duration: 1s;
+    transform: skewX(24deg);
+}
+
+.border2 {
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      blue 40px,
+      green 40px,
+      red 80px);
+    border-radius: 100px;
+    padding: 8px;
+    transition-duration: 1s;
+}
+
+.border2:hover {
+    transition-duration: 1s;
+    transform: skewY(-1.2deg);
+}
+
+.border3 {
+    background: linear-gradient(35deg, #acbe0a, #800e0e);
+    border-radius: 100px;
+    padding: 8px;
+    transition-duration: 2s;
+}
+
+.border3:hover {
+transition-duration: 2s;
+transform: skewX(30deg);
+}
+
+.border4 {
+    background: linear-gradient(35deg, #0abe5b, #140363);
+    border-radius: 100px;
+    padding: 8px;
+    transition-duration: 2s;
+}
+
+.border4:hover {
+    transition-duration: 2s;
+transform: scale(1.2);
+}
+
+.border5 {
+border-radius: 100px;
+padding: 8px;
+transition-duration: 1s;
+}
+
+.border5:hover {
+    transform: skewY(-1.1deg);
+    transition-duration: 1s;
+}
+
+.border6 {
+    border: groove 10px rgb(47, 0, 255);
+    background: linear-gradient(35deg, #0abea6, #db9705);
+    border-radius: 100px;
+    padding: 8px;
+    transition-duration: 2s;
+}
+
+.border6:hover {
+    font-size: 10px;
+    transform: scale(1);
+    transition-duration: 2s;
+}
+
+.border7 {
+    background: linear-gradient(35deg, #05f1f1, #b1e006);
+    border-radius: 100px;
+    padding: 8px;
+    transition-duration: 2s;
+}
+
+.border7:hover {
+    font-size: 30px;
+    transition-duration: 2s;
+    transform: scale(1);
+    transform: skewX(10deg);
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button a:hover {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(255, 81, 0);
+    color: rgb(0, 87, 87);
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+}
+
+a {
+    border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+#anime {
+    animation-name: xmas;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes xmas {
+    0% {
+        background-color: #F5624D;
+        top: 0px;
+        opacity: 1;
+    }
+
+    10% {
+        background-color: #CC231E;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    20% {
+background-color: #34A65F;
+top: 0px;
+opacity: 1;
+    }
+
+    30% {
+        background-color: #0F8A5F;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    40% {
+        background-color: #235E6F;
+        top: 0px;
+        opacity: 1;
+    }
+
+    50% {
+        background-color: #23286f;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    60% {
+        background-color: #235E6F;
+        top: 0px;
+        opacity: 1;
+    }
+
+    70% {
+        background-color: #0F8A5F;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    80% {
+        background-color: #34A65F;
+        top: 0px;
+        opacity: 1;
+    }
+
+    90% {
+        background-color: #CC231E;
+        top: 20px;
+        opacity: 0.2;
+        }
+
+    100% {
+        background-color: #F5624D;
+        top: 0px;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,319 @@
+body {
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/f1/63/11/f16311fd0c32786525f471c685bc516e.gif);
+}
+
+form {
+    margin: auto;
+    width: 500px;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 100px;
+}
+
+.setup {
+    width: 100%;
+}
+
+.laptop {
+    margin-right: 7px;
+}
+
+.headphones {
+    margin-left: 27px;
+}
+
+.mouse {
+    margin-right: 8px;
+}
+
+.microphone {
+    margin-left: 26.5px;
+}
+
+.desk {
+    margin-right: 18.5px;
+}
+
+.chair {
+margin-right: 16px;
+}
+
+.file {
+    margin-left: 65px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    animation-name: coding;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        transition-duration: 1s;
+}
+
+h1:hover {
+    transform: skewX(100deg);
+    font-size: 50px;
+    transform: skewY(-10deg);
+    transition-duration: 1s;
+}
+
+.text1 {
+    font-family: 'Nova Flat', cursive;
+    background: -webkit-linear-gradient(rgb(0, 253, 55), rgb(173, 42, 42)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition-duration: 2s;
+}
+
+.text1:hover {
+    transition-duration: 2s;
+    font-size: 20px;
+}
+
+@keyframes coding {
+    0% {
+        background-color: #2F7C37;
+        top: 0px;
+        opacity: 1;
+    }
+
+    10% {
+        background-color: #2F377C;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    20% {
+background-color: #7C2F37;
+top: 0px;
+opacity: 1;
+    }
+
+    30% {
+        background-color: #7C372F;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    40% {
+        background-color: #372F7C;
+        top: 0px;
+        opacity: 1;
+    }
+
+    50% {
+        background-color: #377C2F;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    60% {
+        background-color: #372F7C;
+        top: 0px;
+        opacity: 1;
+    }
+
+    70% {
+        background-color: #7C372F;
+        top: 20px;
+        opacity: 0.2;
+    }
+
+    80% {
+        background-color: #7C2F37;
+        top: 0px;
+        opacity: 1;
+    }
+
+    90% {
+        background-color: #2F377C;
+        top: 20px;
+        opacity: 0.2;
+        }
+
+    100% {
+        background-color: #2F7C37;
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+#code {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+    transition-duration: 2s;
+}
+
+#code:hover {
+    font-size: 20px;
+    transition-duration: 2s;
+}
+
+#code1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+    transition-duration: 2s;
+}
+
+#code1:hover {
+    font-size: 20px;
+    transition-duration: 2s;
+}
+
+#secret {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+    transition-duration: 2s;
+}
+
+#secret:hover {
+    font-size: 20px;
+    transition-duration: 2s;
+}
+
+#code2 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+    transition-duration: 2s;
+}
+
+#code2:hover {
+    font-size: 20px;
+    transition-duration: 2s;
+}
+
+.file {
+    font-family: 'Acme', sans-serif;
+}
+
+.colors {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+.text2 {
+    font-family: 'Nova Flat', cursive;
+    background: -webkit-linear-gradient(rgb(0, 253, 55), rgb(173, 42, 42)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition-duration: 2s;  
+    border-radius: 50px;
+}
+
+.text2:hover {
+    transition-duration: 2s;
+    font-size: 20px;
+    transform: skewY(-3deg);
+}
+
+.text3 {
+    font-family: 'Nova Flat', cursive;
+    background: -webkit-linear-gradient(rgb(13, 3, 158), rgb(245, 168, 1)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition-duration: 2s;
+}
+
+.text3:hover {
+    transition-duration: 2s;
+    font-size: 20px;
+}
+
+.under {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+
+.monitor1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+.laptop1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+.headphones1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+.mouse1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+.microphone1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+.desk1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+.chair1 {
+    font-family: 'Acme', sans-serif;
+    background: -webkit-linear-gradient(rgb(253, 1, 253), rgb(5, 2, 163)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    border-radius: 100px;
+}
+
+.under {
+transition-duration: 2s;
+}
+
+.under:hover {
+    transition-duration: 2s;
+    font-size: 20px;
+}
+
+.born {
+    transition-duration: 2s;
+}
+
+.born:hover {
+    transition-duration: 2s;
+    font-size: 20px;
+}
